@@ -1,4 +1,4 @@
-# C-Programming-01
+# C Programming 01
 Binus University Online Learning
 
 ASG 24-08-22 || Quick Maths || Arithmetic || Square Sum
@@ -10,4 +10,4 @@ OLQ 22-08-22 || Are They Equal? || Traditional Market || Jellyfish Dance || Squa
 OLQ 29-08-22 || Garden || Array || Love For Parents || Jojo's Array || Bibi's Array || Maximum
 OLQ 05-09-22 || Secret Code || Char to ASCII || Reverse String || Game || Palindrome || 53237
 OLQ 12-09-22 || Alien || Letter Challenge || Decode || Attendance || Best Message || What Did I Do Wrong
-QUIZ || Best Message || Match || Maximum Even Sum || Position Determine Achievement || Clever Math || Count and Coun
+QUIZ || Best Message || Match || Maximum Even Sum || Position Determine Achievement || Clever Math || Count and Count
