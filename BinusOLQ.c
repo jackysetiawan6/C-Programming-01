@@ -262,35 +262,35 @@ void prob3E()
 {
 	int freq[200005], value, i, j;
 
-    int input; scanf("%d", &input);
-    
-    for (i = 1; i <= input; i++)
+	int input; scanf("%d", &input);
+	
+	for (i = 1; i <= input; i++)
 	{
-        int number, printed = 0, max = -1; scanf("%d", &number);
-        
+		int number, printed = 0, max = -1; scanf("%d", &number);
+	
 		memset(freq, 0, sizeof(freq));
 		
-        for(j = 0; j < number; j++)
+		for(j = 0; j < number; j++)
 		{
-            scanf("%d", &value);
-            
+	    		scanf("%d", &value);
+	    
 			freq[value]++;
-            
+	    
 			if (max < freq[value]) max = freq[value];
-        }
-        printf("Case #%d: %d\n", i, max);
-        
-        for (j = 1; j <= 200000; j++)
+		}
+		printf("Case #%d: %d\n", i, max);
+	
+		for (j = 1; j <= 200000; j++)
 		{
-            if (max == freq[j])
+	    		if (max == freq[j])
 			{
-                printf("%s%d", printed == 0 ? "" : " ", j);
-                
+				printf("%s%d", printed == 0 ? "" : " ", j);
+		
 				printed++;
-            }
-        }
-        printf("\n");
-    }
+	    		}
+		}
+		printf("\n");
+	}
 }
 
 void prob3F()
@@ -400,9 +400,9 @@ void prob4F()
 	int i, j; char input[10001]; gets(input);
 	
 	char modifier[10][2] = {
-							 {'I', '1'}, {'R', '2'}, {'E', '3'}, {'A', '4'}, {'S', '5'},
-							 {'G', '6'}, {'T', '7'}, {'B', '8'}, {'P', '9'}, {'O', '0'}
-						   };
+				{'I', '1'}, {'R', '2'}, {'E', '3'}, {'A', '4'}, {'S', '5'},
+				{'G', '6'}, {'T', '7'}, {'B', '8'}, {'P', '9'}, {'O', '0'}
+				};
 	
 	for (i = 0; i < strlen(input); i++)
 	{
@@ -454,9 +454,9 @@ void prob5C()
 	int i, j; char input[10001]; gets(input);
 	
 	char modifier[10][2] = {
-							 {'1', 'I'}, {'2', 'R'}, {'3', 'E'}, {'4', 'A'}, {'5', 'S'},
-							 {'6', 'G'}, {'7', 'T'}, {'8', 'B'}, {'9', 'P'}, {'0', 'O'}
-						   };
+				{'1', 'I'}, {'2', 'R'}, {'3', 'E'}, {'4', 'A'}, {'5', 'S'},
+				{'6', 'G'}, {'7', 'T'}, {'8', 'B'}, {'9', 'P'}, {'0', 'O'}
+				};
 	
 	for (i = 0; i < strlen(input); i++)
 	{
